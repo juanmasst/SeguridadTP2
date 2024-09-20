@@ -52,6 +52,7 @@ app.get('/humidity/:city', async (req, res) => {
 
 // 5. Viento por ciudad
 app.get('/wind/:city', async (req, res) => {
+  console.log(apiKey)
   const city = req.params.city;
   try {
     const response = await axios.get(`${baseUrl}/weather?q=${city}&appid=${apiKey}&units=metric`);
