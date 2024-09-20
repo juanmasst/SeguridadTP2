@@ -5,6 +5,7 @@ const port = 3000;
 
 const apiKey = process.env.OPENWEATHER_API_KEY;
 const baseUrl = 'http://api.openweathermap.org/data/2.5';
+console.log('Pueba')
 
 // 1. Clima actual por ciudad
 app.get('/weather/:city', async (req, res) => {
