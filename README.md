@@ -1,4 +1,3 @@
-Aquí te dejo el README completo para tu proyecto Node.js con GitHub Actions, testing con Jest y uso de la API de OpenWeather. Este archivo documenta el proceso paso a paso, tecnologías usadas, configuraciones y mejores prácticas.
 
 ---
 
