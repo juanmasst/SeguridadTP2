@@ -1,6 +1,7 @@
-Aquí tienes el README en formato markdown:
+Aquí te dejo el README completo para tu proyecto Node.js con GitHub Actions, testing con Jest y uso de la API de OpenWeather. Este archivo documenta el proceso paso a paso, tecnologías usadas, configuraciones y mejores prácticas.
 
-```markdown
+---
+
 # Proyecto de API del Clima con CI/CD Seguro y Testing Automatizado
 
 Este proyecto es una aplicación Node.js que interactúa con la API de OpenWeather para ofrecer datos sobre el clima, pronósticos, humedad y viento. Además, integra un pipeline CI/CD seguro con GitHub Actions y pruebas unitarias automatizadas usando Jest.
@@ -267,3 +268,12 @@ El pipeline utiliza `GitHub Secrets` para almacenar de forma segura la clave de 
 
 - Durante las pruebas, el proyecto usa spies de Jest para mockear las respuestas de Axios, evitando hacer llamadas reales a la API y optimizando el tiempo de las pruebas.
 
+---
+
+## Contribuciones
+
+Si deseas contribuir a este proyecto, realiza un fork y abre un pull request con tus mejoras o sugerencias.
+
+---
+
+Con esto, tienes el README completo, detallado y documentado para tu proyecto de API del clima con Node.js.
