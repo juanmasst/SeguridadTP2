@@ -28,8 +28,8 @@ jobs:
         OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }} # Uso del Secret
       run: npm test
 
-    - name: Deploy
+    - name: Build
       working-directory: ./server # Cambia el directorio a "server"
       env:
         OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }} # Uso del Secret
-      run: npm start
+      run: npm run build

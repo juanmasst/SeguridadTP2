@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --forceExit",
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "echo 'Preparando el build de la app...'"
   },
   "author": "",
   "license": "ISC",
