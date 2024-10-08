@@ -5,6 +5,9 @@
 
 Este proyecto es una aplicación Node.js que interactúa con la API de OpenWeather para ofrecer datos sobre el clima, pronósticos, humedad y viento. Además, integra un pipeline CI/CD seguro con GitHub Actions y pruebas unitarias automatizadas usando Jest.
 
+Se realizó el despliegue en Render. Para acceder utiliza este link:
+https://seguridadtp2.onrender.com/humidity/Mendoza
+
 ## Tabla de Contenidos
 
 - [Tecnologías Utilizadas](#tecnologías-utilizadas)
